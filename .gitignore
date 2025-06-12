@@ -1,10 +1,59 @@
-.env.local
-.env.local
-.env.local
-echo ".env.local" >> .gitignore
-echo "node_modules" >> .gitignore
-echo ".next" >> .gitignore
-echo "out" >> .gitignore
+# Node modules
+node_modules/
 
-.vercel
-node_modules
+# Next.js build output
+.next/
+out/
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional npm cache directory
+.npm
+
+# Miscellaneous
+*.pem
+*.p12
+*.crt
+*.key
+
+# Mac system files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vercel output (if using vercel.json build config)
+.vercel/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Optional REPL history
+.node_repl_history
