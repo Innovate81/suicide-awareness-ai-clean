@@ -7,3 +7,4 @@ echo ".next" >> .gitignore
 echo "out" >> .gitignore
 
 .vercel
+node_modules
