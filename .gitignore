@@ -5,3 +5,5 @@ echo ".env.local" >> .gitignore
 echo "node_modules" >> .gitignore
 echo ".next" >> .gitignore
 echo "out" >> .gitignore
+
+.vercel

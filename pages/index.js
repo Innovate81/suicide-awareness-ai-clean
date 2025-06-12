@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import DonateSection from '../components/DonateSection';
 import ResourcesSection from '../components/ResourcesSection';
 import Testimonials from '../components/Testimonials';
